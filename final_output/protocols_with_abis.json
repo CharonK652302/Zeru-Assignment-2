@@ -1,0 +1,61 @@
+[
+  {
+    "protocol": "uniswap",
+    "network": "ethereum",
+    "contract_address": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+    "contract_name": "UniswapV2Factory",
+    "verified": true,
+    "events": [
+      "PairCreated(address,address,address,uint256)"
+    ],
+    "abi_path": "abis\\ethereum\\0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f.json"
+  },
+  {
+    "protocol": "aave",
+    "network": "ethereum",
+    "contract_address": "0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B",
+    "contract_name": "Unitroller",
+    "verified": true,
+    "events": [
+      "NewPendingImplementation(address,address)",
+      "NewImplementation(address,address)",
+      "NewPendingAdmin(address,address)",
+      "NewAdmin(address,address)",
+      "Failure(uint256,uint256,uint256)"
+    ],
+    "abi_path": "abis\\ethereum\\0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B.json"
+  },
+  {
+    "protocol": "compound",
+    "network": "ethereum",
+    "contract_address": "0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B",
+    "contract_name": "Unitroller",
+    "verified": true,
+    "events": [
+      "NewPendingImplementation(address,address)",
+      "NewImplementation(address,address)",
+      "NewPendingAdmin(address,address)",
+      "NewAdmin(address,address)",
+      "Failure(uint256,uint256,uint256)"
+    ],
+    "abi_path": "abis\\ethereum\\0x3d9819210A31b4961b30EF54bE2aeD79B9c9Cd3B.json"
+  },
+  {
+    "protocol": "quickswap",
+    "network": "polygon",
+    "contract_address": "0x5757371414417b8c6caad45baef941abc7d3ab32",
+    "contract_name": "Unknown",
+    "verified": false,
+    "events": [],
+    "abi_path": null
+  },
+  {
+    "protocol": "pancakeswap",
+    "network": "bsc",
+    "contract_address": "0xbcfCcbde45cE874adCB698cC183deBcF17952812",
+    "contract_name": "Unknown",
+    "verified": false,
+    "events": [],
+    "abi_path": null
+  }
+]
